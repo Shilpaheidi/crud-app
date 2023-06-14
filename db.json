@@ -1,0 +1,84 @@
+{
+  "productList": [
+    {
+      "name": "mala",
+      "address": "tirupattur",
+      "city": "chennai",
+      "state": "Karnataka",
+      "zipcode": 635601,
+      "phone": 9876543210,
+      "email": "mala123@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "ram",
+      "address": "hosur",
+      "city": "bangalore",
+      "state": "Karnataka",
+      "zipcode": 786549,
+      "phone": 8976543210,
+      "email": "ram123@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "santhiya",
+      "address": "chennai",
+      "city": "chennai",
+      "state": "TamilNadu",
+      "zipcode": 567890,
+      "phone": 7896543210,
+      "email": "santhiya123@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "kaviya",
+      "address": "krishnagiri",
+      "city": "bangalore",
+      "state": "Karnataka",
+      "zipcode": 678905,
+      "phone": 9876543021,
+      "email": "kaviya123@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "nithya",
+      "address": "tirupattur",
+      "city": "chennai",
+      "state": "TamilNadu",
+      "zipcode": 654321,
+      "phone": 9087654321,
+      "email": "nithya123@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "merlin",
+      "address": "krishnagri",
+      "city": "bangalore",
+      "state": "Karnataka",
+      "zipcode": 675489,
+      "phone": 8790654321,
+      "email": "merlin123@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "gyt",
+      "address": "tyty",
+      "city": "ytt",
+      "state": "TamilNadu",
+      "zipcode": 123,
+      "phone": 444,
+      "email": "rrrrr",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

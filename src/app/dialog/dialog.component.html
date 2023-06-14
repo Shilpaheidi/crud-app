@@ -1,0 +1,62 @@
+<h1 mat-dialog-title> ADD ORDER</h1>
+<div mat-dialog-content>
+    <form [formGroup]="productForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input formControlName="name" matInput placeholder="Name">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Address</mat-label>
+            <input formControlName="address" matInput placeholder="Address">
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+            <mat-label>City</mat-label>
+            <input formControlName="city" matInput placeholder="City">
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+            <mat-select formControlName="state" placeholder="--Select a state--">
+                <mat-option value="TamilNadu">TamilNadu</mat-option>
+                <mat-option value="Karnataka">Karnataka</mat-option>
+                <mat-option value="Kerala">Kerala</mat-option>
+            </mat-select>
+        </mat-form-field> 
+
+        <mat-form-field appearance="outline">
+            <mat-label>Zipcode</mat-label>
+            <input formControlName="zipcode" input type="number" matInput placeholder="Zipcode">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Phone</mat-label>
+            <input formControlName="phone" input type="number" matInput placeholder="phone">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>E-mail</mat-label>
+            <input formControlName="email" input type="email" matInput placeholder="E-mail">
+        </mat-form-field>
+
+        <label for="">
+            <h2>Order Type</h2>
+        </label>
+        <mat-radio-group formControlName="ordertype" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let fresh of ordertype" [value]="fresh">
+                {{fresh}}
+            </mat-radio-button>
+        </mat-radio-group>
+
+        
+        
+    </form>
+
+</div>
+
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="addOrder()">{{actionBtn}}</button>
+</div>
